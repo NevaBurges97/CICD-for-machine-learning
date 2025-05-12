@@ -34,5 +34,4 @@ push-hub:
 	huggingface-cli upload nevaburges/Drug-Classification ./Model /Model --repo-type=space --commit-message="Sync Model"
 	huggingface-cli upload nevaburges/Drug-Classification ./Results /Metrics --repo-type=space --commit-message="Sync Model"
 
-deploy: 
-	hf-login push-hub
+deploy: hf-login push-hub
