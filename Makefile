@@ -5,7 +5,7 @@ install:
 format:
 	black *.py
 
-train:gt
+train:
 	python train.py
 
 eval:
